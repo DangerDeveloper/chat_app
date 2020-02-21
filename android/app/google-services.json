@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573078422619",
+    "firebase_url": "https://chat-bat.firebaseio.com",
+    "project_id": "chat-bat",
+    "storage_bucket": "chat-bat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573078422619:android:f3ed2354e484c9d3196b7e",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573078422619-9572tq012aqu4s8nns1mnkgkd38an3i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxNdV4pDhugTYdX26-j19jILl77dbtaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573078422619-9572tq012aqu4s8nns1mnkgkd38an3i4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

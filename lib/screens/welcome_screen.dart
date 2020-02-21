@@ -28,16 +28,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       begin: Colors.green,
       end: Colors.red,
     ).animate(controller);
-//    animation = CurvedAnimation(parent: controller,curve: Curves.easeInExpo);
     controller.forward();
-
-//    animation.addStatusListener((status) {
-//      if(status == AnimationStatus.completed){
-//        controller.reverse(from: 1.0);
-//      }else if (status == AnimationStatus.dismissed){
-//        controller.forward();
-//      }
-//    });
 
     controller.addListener(() {
       setState(() {});
@@ -71,9 +62,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                 ),
                 TypewriterAnimatedTextKit(
                   text: ['Flash Chat'],
-                  speed: Duration(seconds: 1),
+                  speed: Duration(milliseconds: 400),
                   textStyle: TextStyle(
                     fontSize: 45.0,
+                    color: Colors.white,
                     fontWeight: FontWeight.w900,
                   ),
                 ),
